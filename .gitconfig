@@ -1,0 +1,12 @@
+[user]
+	email = aron@aronbergman.se
+	name = Aron Bergman
+
+[status]
+	short = true
+	branch = true
+
+[alias]
+	c = commit
+	a = add
+	s = status
