@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 1612 1062"
+   version="1.1"
+   sodipodi:docname="speaker.svg.new.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata156">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>speaker</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1878"
+     inkscape:window-height="975"
+     id="namedview154"
+     showgrid="false"
+     inkscape:zoom="1.0360246"
+     inkscape:cx="543.23769"
+     inkscape:cy="747.37925"
+     inkscape:window-x="20"
+     inkscape:window-y="83"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs95">
+    <style
+       id="style93">.cls-1{fill:none;}.cls-2{fill:#fff;}</style>
+  </defs>
+  <title
+     id="title97">speaker</title>
+  <g
+     id="volume-3">
+    <path
+       d="M1406,169.38V342.62a100,100,0,0,0,0-173.24Z"
+       id="path99" />
+    <path
+       d="M1406,62.3v52.25a150,150,0,0,1,0,282.9V449.7c86.26-22.2,150-100.51,150-193.7S1492.26,84.5,1406,62.3Z"
+       id="path101" />
+    <rect
+       class="cls-1"
+       x="1100"
+       width="512"
+       height="512"
+       id="rect103" />
+    <polygon
+       points="1356 79 1242.15 193.5 1156 193.5 1156 318.5 1242.15 318.5 1356 433 1356 79"
+       id="polygon105" />
+  </g>
+  <g
+     id="volume-3-off">
+    <path
+       id="polygon108"
+       d="M 1356 629 L 1285.2012 700.20312 L 1356 771.00195 L 1356 629 z M 1267.5742 717.93164 L 1242.1504 743.5 L 1156 743.5 L 1156 868.5 L 1242.1504 868.5 L 1356 983 L 1356 806.35742 L 1267.5742 717.93164 z " />
+    <path
+       id="path110"
+       d="M 1406 719.38086 L 1406 821.00195 L 1442.0293 857.03125 A 100 100 0 0 0 1406 719.38086 z M 1406 856.35742 L 1406 892.61914 A 100 100 0 0 0 1426.5469 876.9043 L 1406 856.35742 z " />
+    <path
+       id="path112"
+       d="M 1406 612.30078 L 1406 664.55078 A 150 150 0 0 1 1478.1582 893.16016 L 1513.8359 928.83789 C 1540.2566 894.93765 1556 852.30793 1556 806 C 1556 712.81 1492.26 634.50078 1406 612.30078 z M 1461.9277 912.28516 A 150 150 0 0 1 1406 947.44922 L 1406 999.69922 C 1441.056 990.67716 1472.3917 972.38857 1497.2422 947.59961 L 1461.9277 912.28516 z " />
+    <rect
+       class="cls-1"
+       x="1100"
+       y="550"
+       width="512"
+       height="512"
+       id="rect114" />
+    <rect
+       x="1091.34"
+       y="802.16"
+       width="512"
+       height="25"
+       transform="translate(970.68 -714.1) rotate(45)"
+       id="rect116" />
+  </g>
+  <g
+     id="volume-2">
+    <path
+       d="M856,169.38V342.62a100,100,0,0,0,0-173.24Z"
+       id="path121" />
+    <rect
+       class="cls-1"
+       x="550"
+       width="512"
+       height="512"
+       id="rect123" />
+    <polygon
+       points="806 79 692.15 193.5 606 193.5 606 318.5 692.15 318.5 806 433 806 79"
+       id="polygon125" />
+  </g>
+  <g
+     id="volume-2-off">
+    <path
+       id="polygon128"
+       d="M 806 629 L 735.20117 700.20312 L 806 771.00195 L 806 629 z M 717.57422 717.93164 L 692.15039 743.5 L 606 743.5 L 606 868.5 L 692.15039 868.5 L 806 983 L 806 806.35547 L 717.57422 717.93164 z " />
+    <path
+       id="path130"
+       d="M 856 719.38086 L 856 821.00195 L 892.0293 857.03125 A 100 100 0 0 0 856 719.38086 z M 856 856.35547 L 856 892.61914 A 100 100 0 0 0 876.54688 876.90234 L 856 856.35547 z " />
+    <rect
+       class="cls-1"
+       x="550"
+       y="550"
+       width="512"
+       height="512"
+       id="rect132" />
+    <rect
+       x="541.34"
+       y="802.16"
+       width="512"
+       height="25"
+       transform="translate(809.59 -325.19) rotate(45)"
+       id="rect134" />
+  </g>
+  <g
+     id="volume-1">
+    <polygon
+       points="256 79 142.15 193.5 56 193.5 56 318.5 142.15 318.5 256 433 256 79"
+       id="polygon139" />
+    <rect
+       class="cls-1"
+       width="512"
+       height="512"
+       id="rect141" />
+  </g>
+  <g
+     id="volume-1-off">
+    <path
+       id="polygon144"
+       d="M 256 629 L 185.20117 700.20312 L 256 771 L 256 629 z M 167.57422 717.92969 L 142.15039 743.5 L 56 743.5 L 56 868.5 L 142.15039 868.5 L 256 983 L 256 806.35742 L 167.57422 717.92969 z " />
+    <rect
+       class="cls-1"
+       y="550"
+       width="512"
+       height="512"
+       id="rect146" />
+    <rect
+       x="-8.66"
+       y="802.16"
+       width="512"
+       height="25"
+       transform="translate(648.5 63.71) rotate(45)"
+       id="rect148" />
+  </g>
+</svg>

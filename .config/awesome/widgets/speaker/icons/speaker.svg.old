@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1612 1062">
+	<defs><style>.cls-1,.cls-2,.cls-3{fill:none;}.cls-2{stroke:#000;}.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:25px;}.cls-3{stroke:#fff;}</style></defs>
+	<g id="volume-1">
+		<rect x="56" y="193.5" width="100" height="125"/>
+		<polygon points="80 256 256 433 256 79 80 256"/>
+		<rect class="cls-1" width="512" height="512"/>
+	</g>
+	<g id="volume-1-off">
+		<rect x="56" y="743.5" width="100" height="125"/>
+		<polygon points="80 806 256 983 256 629 80 806"/>
+		<line class="cls-2" x1="47.16" y1="614.84" x2="447.16" y2="1014.84"/>
+		<line class="cls-3" x1="64.84" y1="597.16" x2="464.84" y2="997.16"/>
+		<rect class="cls-1" y="550" width="512" height="512"/>
+	</g>
+	<g id="volume-2">
+		<rect x="606" y="193.5" width="100" height="125"/>
+		<polygon points="630 256 806 433 806 79 630 256"/>
+		<path d="M856,169.38V342.62a100,100,0,0,0,0-173.24Z"/>
+		<rect class="cls-1" x="550" width="512" height="512"/>
+	</g>
+	<g id="volume-2-off">
+		<rect x="606" y="743.5" width="100" height="125"/>
+		<polygon points="630 806 806 983 806 629 630 806"/>
+		<path d="M856,719.38V892.62a100,100,0,0,0,0-173.24Z"/>
+		<line class="cls-2" x1="597.16" y1="614.84" x2="997.16" y2="1014.84"/>
+		<line class="cls-3" x1="614.84" y1="597.16" x2="1014.84" y2="997.16"/>
+		<rect class="cls-1" x="550" y="550" width="512" height="512"/>
+	</g>
+	<g id="volume-3">
+		<rect x="1156" y="193.5" width="100" height="125"/>
+		<polygon points="1180 256 1356 433 1356 79 1180 256"/>
+		<path d="M1406,169.38V342.62a100,100,0,0,0,0-173.24Z"/>
+		<path d="M1406,62.3v52.25a150,150,0,0,1,0,282.9V449.7c86.26-22.2,150-100.51,150-193.7S1492.26,84.5,1406,62.3Z"/>
+		<rect class="cls-1" x="1100" width="512" height="512"/>
+	</g>
+	<g id="volume-3-off">
+		<rect x="1156" y="743.5" width="100" height="125"/>
+		<polygon points="1180 806 1356 983 1356 629 1180 806"/>
+		<path d="M1406,719.38V892.62a100,100,0,0,0,0-173.24Z"/>
+		<path d="M1406,612.3v52.25a150,150,0,0,1,0,282.9V999.7c86.26-22.2,150-100.51,150-193.7S1492.26,634.5,1406,612.3Z"/>
+		<line class="cls-2" x1="1147.16" y1="614.84" x2="1547.16" y2="1014.84"/>
+		<line class="cls-3" x1="1164.84" y1="597.16" x2="1564.84" y2="997.16"/>
+		<rect class="cls-1" x="1100" y="550" width="512" height="512"/>
+	</g>
+</svg>
