@@ -16,3 +16,6 @@ set tabstop=2
 
 " don't expand a tab press to spaces
 set noexpandtab
+
+" Rust forces some tab settings, we will override them
+let g:rust_recommended_style = 0
