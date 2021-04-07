@@ -11,10 +11,17 @@ local wibox = require("wibox")
 
 -- Theme handling library
 local beautiful = require("beautiful")
+
+-- We want to randomly select the theme
+math.randomseed(os.time())
+
+local themes = { "an", "ek", "fn", "wt" }
+local theme = themes[math.random(1,4)]
+
 -- Themes define colours, icons, font and wallpapers.
 -- beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 --local theme_path = string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), "default")
-local theme_path = string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), "wt")
+local theme_path = string.format("%s/.config/awesome/themes/%s/theme.lua", os.getenv("HOME"), theme)
 beautiful.init(theme_path)
 
 -- Notification library
