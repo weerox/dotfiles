@@ -55,11 +55,18 @@
 "xbacklight -dec 10"
 	XF86MonBrightnessDown
 
-"maim -s | xclip -selection clipboard -t image/png"
+# Ctrl will save as file, Shift will capture whole screen
+"maim -u -s | xclip -selection clipboard -t image/png"
 	Print
 
-"maim | xclip -selection clipboard -t image/png"
+"maim -u -s ~/Screenshots/$(date -Iseconds).png"
+	Control + Print
+
+"maim -u | xclip -selection clipboard -t image/png"
 	Shift + Print
+
+"maim -u ~/Screenshots/$(date -Iseconds).png"
+	Control + Shift + Print
 
 # Examples of commands:
 #
