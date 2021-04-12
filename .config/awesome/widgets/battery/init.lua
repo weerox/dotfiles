@@ -5,7 +5,6 @@ local awful = require("awful")
 local beautiful = require("beautiful")
 
 local function new()
-	print("start widget_battery")
 	local w = wl.fixed.horizontal()
 	local w_icon = ww.imagebox()
 	local w_text = ww.textbox()
@@ -34,8 +33,6 @@ local function new()
 		end
 
 		icon = icon .. ".png"
-
-		print(icon)
 
 		local color = beautiful.wibar.widgets.icon_color
 		if bat_percentage == 100 and bat_status == "Charging" then
@@ -68,7 +65,6 @@ local function new()
 	w:add(w_icon)
 	w:add(w_text)
 
-	print("end widget_battery")
 	return w;
 end
 

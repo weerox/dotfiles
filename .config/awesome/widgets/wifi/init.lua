@@ -5,7 +5,6 @@ local awful = require("awful")
 local beautiful = require("beautiful")
 
 local function new()
-	print("start widget_wifi")
 	local w = wl.fixed.horizontal()
 	local w_icon = ww.imagebox()
 	local w_text = ww.textbox()
@@ -37,8 +36,6 @@ local function new()
 		end
 
 		icon = icon .. ".png"
-
-		print(icon)
 
 		w_icon:set_image(gears.color.recolor_image(icon, beautiful.wibar.widgets.icon_color))
 --		w_icon:set_image(gears.color.recolor_image(icon, "#ffffff"))
@@ -72,7 +69,6 @@ local function new()
 	w:add(w_icon)
 	w:add(w_text)
 
-	print("end widget_wifi")
 	return w;
 end
 
