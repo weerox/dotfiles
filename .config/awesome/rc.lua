@@ -340,6 +340,18 @@ globalkeys = gears.table.join(
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({modkey, "Shift"    }, "Return", function ()
+        local pid = client.focus.pid
+        -- The terminal spawns bash as a child process.
+        -- It is the child process we want the cwd from.
+        local cmd = [[ps --ppid ]] .. pid .. [[ | awk 'NR==2{print $1}']]
+        awful.spawn.easy_async_with_shell(cmd, function(stdout)
+            awful.spawn.easy_async([[readlink /proc/]] .. string.gsub(stdout, "(.-)%s*$", "%1") .. [[/cwd]], function(stdout)
+                awful.spawn(terminal .. [[ -d ]] .. stdout)
+            end)
+        end)
+    end,
+              {description = "spawn a new shell from active terminal working directory", group = "launcher"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
