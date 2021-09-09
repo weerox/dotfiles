@@ -39,10 +39,10 @@ local function new()
 	end
 
 	local function speaker_update()
-		awful.spawn.easy_async_with_shell([[pactl list sinks | awk -v D="$(pactl info | grep "Default Sink:" | awk '{ print $3 }')" -v RS='' '/D/' | grep "Volume:" | grep -o "[0-9]*%" | head -n1 | sed 's/%$//']], function (stdout)
+		awful.spawn.easy_async_with_shell([[pactl get-sink-volume $(pactl get-default-sink) | grep -o "[0-9]*%" | head -n1 | sed 's/%$//']], function (stdout)
 			local speaker_volume = tonumber(stdout)
 
-			awful.spawn.easy_async_with_shell([[pactl list sinks | awk -v D="$(pactl info | grep "Default Sink:" | awk '{ print $3 }')" -v RS='' '/D/' | grep "Mute:" | head -n1 | awk '{ $1=$1; print $2 }']], function (stdout)
+			awful.spawn.easy_async_with_shell([[pactl get-sink-mute $(pactl get-default-sink) | awk '{ $1=$1; print $2 }']], function (stdout)
 				local speaker_muted = true
 				if string.gsub(stdout, "(.-)%s*$", "%1") == "no" then
 					speaker_muted = false

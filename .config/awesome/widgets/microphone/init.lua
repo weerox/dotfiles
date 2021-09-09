@@ -39,10 +39,10 @@ local function new()
 	end
 
 	local function microphone_update()
-		awful.spawn.easy_async_with_shell([[pactl list sources | awk -v D="$(pactl info | grep "Default Source:" | awk '{ print $3 }')" -v RS='' '/D/' | grep "Volume:" | grep -o "[0-9]*%" | head -n1 | sed 's/%$//']], function (stdout)
+		awful.spawn.easy_async_with_shell([[pactl get-source-volume $(pactl get-default-source) | grep -o "[0-9]*%" | head -n1 | sed 's/%$//']], function (stdout)
 			local microphone_volume = tonumber(stdout)
 
-			awful.spawn.easy_async_with_shell([[pactl list sources | awk -v RS='' "/Name: $(pactl info | grep "Default Source:" | awk '{ print $3 }')/" | grep "Mute:" | awk '{ $1=$1; print $2 }']], function (stdout)
+			awful.spawn.easy_async_with_shell([[pactl get-source-mute $(pactl get-default-source) | awk '{ $1=$1; print $2 }']], function (stdout)
 				local microphone_muted = true
 				if string.gsub(stdout, "(.-)%s*$", "%1") == "no" then
 					microphone_muted = false
